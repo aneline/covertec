@@ -1,0 +1,26 @@
+.container {
+  padding: 10;
+  margin-top: 4%;
+}
+
+.txt {
+  padding: 1vw 0 0 3vw;
+
+}
+
+.texto {
+  color: black;
+  text-align: left;
+  font-family: montserrat;
+  font-size: 1.5vw;
+  font-variant:normal;
+  text-align: justify;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin-top: 2%;
+ 
+}
+
+.maps {
+  text-align: center;
+}

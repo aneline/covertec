@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/cadastro.css">
+  <title>Cadastro de Cliente</title>
+</head>
+
+<body>
+
+  <div class="background">
+
+  <div class="box">
+
+    <form method="post">
+
+      <fieldset>
+
+        <div class="fullBox">
+
+          <legend>
+            <b>Cadastro de Cliente</b>
+          </legend>
+          <br>
+
+          <label for="nome" class="labelInput">Nome Completo</label>
+          <input type="text" name="nome" id="nome" class="inputUser" required>
+          <br>
+          <label for="CPF" class="CPF">CPF</label>
+          <input type="text" name="CPF" id="CPF" class="inputUser" required>
+          <br>
+
+          <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+          <input type="date" name="data_nascimento" id="data_nascimento" required>
+          <br>
+
+          <p>Sexo:</p>
+          <input type="radio" id="feminino" name="genero" value="feminino" required>
+          <label for="feminino">Feminino</label>
+          <br>
+          <input type="radio" id="masculino" name="genero" value="masculino" required>
+          <label for="masculino">Masculino</label>
+          <br>
+          <input type="radio" id="outro" name="genero" value="outro" required>
+          <label for="outro">Outro</label>
+          <br><br>
+
+          <label for="telefone" class="labelInput">CEP</label>
+          <input type="tel" name="cep" id="telefone" class="inputUser" required>
+          <br><br>
+
+          <label for="email" class="labelInput">Email</label>
+          <input type="email" name="email" id="email" class="inputUser" required>
+          <br>
+          <label for="email" class="labelInput">Confirmação do Email</label>
+          <input type="email" name="email" id="email" class="inputUser" required>
+          <br><br>
+
+          <label for="Passoword" class="Passoword">Senha</label>
+          <input type="password" name="password" class="inputUser" required>
+          <br>
+          <label for="Passoword" class="Passoword">Confirmação da Senha</label>
+          <input type="password" name="Passoword" class="inputUser" required>
+          <br><br>
+
+          <a class="nav-link text-muted" href="../index.html">
+            <button class="btn btn-info" type="button">Cadastrar</button>
+          </a>
+
+        </div>
+
+      </fieldset>
+    </form>
+
+    <iframe src="./rodape.html" scrolling="yes" frameborder="0" width="100%" height="360px"></iframe>
+
+</body>
+
+</html>

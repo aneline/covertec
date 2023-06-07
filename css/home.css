@@ -1,0 +1,78 @@
+.container {
+  padding: 10;
+  margin-top: 4%;
+}
+
+.parte1 h2 {
+  color: black;
+  text-align: left;
+  font-family: montserrat;
+  font-variant:normal;
+}
+.parte1 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin-top: 2%;
+  margin-right: 50%;
+  margin-bottom: 5%;
+  float: right; 
+  text-align: justify;
+  font-variant:normal;
+  font-size: 1.7vw;
+}
+
+.foto1 {
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 50%;
+  float: right; 
+  position: absolute;
+}
+.foto1 img {
+  width: 100%;
+}
+
+.parte2 img {
+  position: relative;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 20px;
+}
+
+.parte h2 {
+  color: black;
+  text-align: left;
+  font-family: montserrat;
+  font-variant:normal;
+}
+.parte3 {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin-top: 2%;
+  margin-right: 50%;
+  margin-bottom: 12%;
+  float: right; 
+  text-align: justify;
+  font-variant:normal;
+  font-size: 1.7vw;
+}
+
+.foto2 {
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 50%;
+  float: right; 
+  position: absolute;
+}
+.foto2 img {
+  width: 180%;
+}
+
+.parte4 img {
+  width: 100%;
+  margin-top: 2%;
+}
+
+
+
+
